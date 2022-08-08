@@ -1,0 +1,19 @@
+.title{
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    margin-right: auto;
+}
+
+#delet{
+    margin-top: 1.2rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.amount{
+   margin-left: 11.6rem;
+   
+}
+#ddd{
+  box-shadow: 0 5px 5px gray;
+}

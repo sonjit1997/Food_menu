@@ -1,0 +1,55 @@
+.card:hover {
+    border-bottom: 1px solid rgb(130, 203, 129);
+    cursor: pointer;
+  }
+
+#title {
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  #title2 {
+    float: right;
+    font-weight: 500;
+    color: rgb(250, 250, 209);
+  }
+  #title3 {
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  #title4 {
+   
+    font-weight: 500;
+    background-color: rgb(54, 205, 127);
+    color: rgb(249, 252, 255);
+    
+
+  }
+
+  
+  #muted {
+  
+    margin-right: 67%;
+  }
+  
+  #unmuted {
+    font-weight: bolder;
+    margin-right: 53%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+  }
+  
+  #hart {
+    float: left;
+    color: rgb(247, 247, 202);
+  }
+  
+
+  .top {
+    margin-top: 12rem;
+  }
+  #star{
+    margin-bottom: 0.3rem;
+  }
+  
