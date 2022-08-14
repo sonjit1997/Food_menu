@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
+import { ToastContainer,toast} from "react-toastify";
 import "./style/Cart.css";
 
 function Cart({ cart, setCart}) {
-
   const [price, setPrice] = useState(0);
 
   const hadelRemove = (id) => {
@@ -19,6 +19,10 @@ function Cart({ cart, setCart}) {
   useEffect(() => {
     handelprice();
   });
+
+  const notify = () => {if(cart.length>=1){toast("Yahoo, your food will be ready in 10 minutes !" )}
+
+  else{toast("Check our menu and order first!")}}
 
   return (
     <div>
@@ -58,10 +62,12 @@ function Cart({ cart, setCart}) {
     <h5 className="amount text-secondary">₹{price}</h5>
       </div>
       <div className="d-grid">
-  <button className="btn  btn-success mt-2">
+  <button className="btn  btn-success mt-2" onClick={notify}>
              
               Checkout
-            </button>
+            </button>  <ToastContainer />
+
+            
 </div>
        
     </div>
